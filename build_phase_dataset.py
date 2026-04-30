@@ -45,8 +45,8 @@ N_ORIGINAL_EPISODES = 80
 # Edit these to taste — these are the prompts SmolVLA will see.
 TASK_STRINGS = {
     "approach": "pick up the cube",
-    "carry":    "pick up the cube and bring it over to the target region",
-    "full":     "pick up the cube and drop it over the target region",
+    "carry":    "bring cube over to the target",
+    "full":     "drop cube in the target region",
 }
 
 

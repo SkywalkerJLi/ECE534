@@ -53,7 +53,7 @@ python lerobot/src/lerobot/scripts/lerobot_train.py \
   --batch_size=32 \
   --steps=20000 \
   --save_freq=5000 \
-  --output_dir=/scratch/gpfs/TSILVER/sl5183/ECE534/outputs/train/smolvla_phase_split_1200 \
+  --output_dir=/scratch/gpfs/TSILVER/sl5183/ECE534/outputs/train/smolvla_phase_split_1200_new_prompts \
   --job_name=smolvla_phase_split \
   --policy.device=cuda \
   --wandb.enable=false \
