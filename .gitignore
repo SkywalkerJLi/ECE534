@@ -1,0 +1,9 @@
+.venv/
+wandb/
+logs/
+__pycachce__/
+*.pyc
+slurm-*.out
+slurm-*.err
+.DS_Store
+lerobot/
