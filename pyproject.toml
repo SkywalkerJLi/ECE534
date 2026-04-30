@@ -1,0 +1,27 @@
+[project]
+name = "ece534-smolvla-phase"
+version = "0.1.0"
+description = "SmolVLA phase-split training and dataset tooling for ECE534"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "lerobot==0.5.1",
+    "huggingface-hub",
+    "transformers",
+    "datasets",
+    "numpy",
+    "pandas",
+    "torch",
+    "torchvision",
+    "wandb",
+]
+
+[tool.uv.sources]
+lerobot = { git = "https://github.com/huggingface/lerobot.git", tag = "v0.5.1" }
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
